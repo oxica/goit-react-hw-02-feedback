@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import s from './App.module.css';
+import s from './App.module.css';
 import Section from './Section/Section';
 import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
 import Statistics from './Statistics/Statistics';
@@ -33,7 +33,7 @@ class App extends Component {
     const options = Object.keys(this.state);
 
     return (
-      <div>
+      <div className={s.container}>
         <Section title="Please leave feedback">
           <FeedbackOptions
             options={options}

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Section = ({ title, children }) => {
   return (
-    <section className={s.container}>
+    <section className={s.section}>
       <h2 className={s.title}>{title}</h2>
       {children}
     </section>

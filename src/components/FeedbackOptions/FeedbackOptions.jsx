@@ -1,4 +1,4 @@
-import s from './FeedbackOptions.module.css';
+// import s from './FeedbackOptions.module.css';
 import PropTypes from 'prop-types';
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
